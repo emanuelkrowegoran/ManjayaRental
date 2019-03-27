@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="@color/default_circle_indicator_fill_color"
+        android:src="@drawable/xenia" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="serif"
+        android:text="Spesifikasi: \n
+        \n
+ID Mobil                              : XNA01 \n
+Nama Mobil                       : Daihatsu Xenia \n
+Air Conditioner                  : ada \n
+Tenaga mesin                    : 1450cc \n
+Maksimal penumpang      : 8 Penumpang \n
+Jenis transmisi                  : Manual \n
+Ban Serep                           : ada \n
+Warna                                  : coklat \n
+Bahan bakar                       : premium/pertalite\n
+Harga sewa                         : Rp.180.000/hari"
+        android:textColor="@color/vpi__background_holo_dark" />
+    <Button
+        android:id="@+id/button3"
+        android:paddingTop="10dp"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+        android:paddingRight="10dp"
+        android:text="Pesan" />
+
+</LinearLayout>

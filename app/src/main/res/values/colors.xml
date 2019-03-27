@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+<color name="lingkaran_mobil">#4c8087</color>
+<color name="lingkaran_pesawat">#4c8087</color>
+<color name="lingkaran_rs">#139599</color>
+<color name="lingkaran_spbu">#ff9340</color>
+<color name="lingkaran_store">#464343</color>
+<color name="lingkaran_truk">#4480b1</color>
+<color name="lingkaran_hotel">#ff9340</color>
+<color name="lingkaran_gunung">#464343</color>
+<color name="lingkaran_yt">#4480b1</color>
+</resources>

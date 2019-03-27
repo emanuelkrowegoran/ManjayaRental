@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/pajero"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="serif"
+        android:text="Spesifikasi: \n
+        \n
+ID Mobil                              : PJR01 \n
+Nama Mobil                       : Pajero Sport \n
+Air Conditioner                  : ada \n
+Tenaga mesin                    : 2550cc \n
+Maksimal penumpang      : 8 Penumpang \n
+Jenis transmisi                  : Manual \n
+Ban Serep                           : ada \n
+Warna                                  : Merah \n
+Bahan bakar                       : Solar\n
+Harga sewa                        : Rp.270.000/hari"
+        android:textColor="@color/vpi__background_holo_dark" />
+
+    <Button
+        android:id="@+id/button9"
+        android:paddingTop="10dp"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+        android:paddingRight="10dp"
+        android:text="Pesan" />
+
+</LinearLayout>

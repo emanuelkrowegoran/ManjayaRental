@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".aturan">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="ATURAN PEMESANAN"
+        android:textAllCaps="false"
+        android:textColor="@color/vpi__background_holo_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="62dp"
+        android:fontFamily="serif"
+        android:gravity="fill_horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/aturana"
+        android:text="- Untuk melihat daftar mobil yang disewa dapat dilihat di katalog mobil.
+        \n- Jika ingin melihat informasi  mobil lebih lengkap  dapat menekan gambar mobil yang ingin di sewa.
+        \n- Kemudian jika  sudah sudah cocok bias langsung tekan tombol pesan.
+        \n- Setelah menekan tombol pesan maka akan arahkan ke form transaksi.
+        \n- Pada form transaksi dapat memasukan biodata atau data diri.
+        \n- Kemudian pada  form terdapat pilihan ingin menggunakan supir atau tidak.
+        \n- Jika menggunakan sopir maka mobil akan di antarkan jika tidak mobil bisa di ambil di tempat dengan membawa syarat syarat.
+        \n- Kemudian jika transaksi berhasil makan akan mendapatkan konfirmasi via email."
+        android:textColor="@color/vpi__background_holo_dark"
+        android:textSize="14sp" />
+
+</RelativeLayout>

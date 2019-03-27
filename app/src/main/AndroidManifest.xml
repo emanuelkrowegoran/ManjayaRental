@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lobothijau.carouselsederhana">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/mylogo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/hyt"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".splah"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".transaksi" />
+        <activity android:name=".mobil" />
+        <activity android:name=".MenuKatalog" />
+        <activity android:name=".Sigra_Katalog" />
+        <activity android:name=".Xenia" />
+        <activity android:name=".alpahard" />
+        <activity android:name=".amaze" />
+        <activity android:name=".brio" />
+        <activity android:name=".elf" />
+        <activity android:name=".inova" />
+        <activity android:name=".pajero" />
+        <activity android:name=".avanza" />
+        <activity android:name=".aturan" />
+        <activity android:name=".contact" />
+        <activity android:name=".konfir"></activity>
+    </application>
+
+</manifest>
